@@ -1,4 +1,4 @@
-sap.ui.predefine('ui5demo/controller/BaseController', ["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/m/library"], function(C, U, m) {
+sap.ui.define('ui5demo/controller/BaseController', ["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent", "sap/m/library"], function(C, U, m) {
     "use strict";
     var a = m.URLHelper;
     return C.extend("ui5demo.controller.BaseController", {

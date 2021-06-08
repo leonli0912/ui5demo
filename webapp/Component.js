@@ -1,6 +1,6 @@
-   sap.ui.define([
-   "sap/ui/core/UIComponent"
-], function (UIComponent) {
+sap.ui.define("ui5demo/Component",[
+   "sap/ui/core/UIComponent","sap/ui/Device","./model/models"
+], function (UIComponent, D, m, E) {
     "use strict";
     return UIComponent.extend("ui5demo.Component", {
         metadata: {
@@ -8,7 +8,7 @@
         },
         init: function() {
             UIComponent.prototype.init.apply(this, arguments);
-            //this.setModel(m.createDeviceModel(), "device");
+            this.setModel(m.createDeviceModel(), "device");
             this.getRouter().initialize();
         },
         destroy: function() {

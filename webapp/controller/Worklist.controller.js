@@ -1,4 +1,4 @@
-sap.ui.predefine('ui5demo/controller/Worklist.controller', ["./BaseController", "sap/ui/model/json/JSONModel", "../model/formatter", "sap/ui/model/Filter", "sap/ui/model/FilterOperator"], function(B, J, f, F, a) {
+sap.ui.define('ui5demo/controller/Worklist.controller', ["./BaseController", "sap/ui/model/json/JSONModel", "../model/formatter", "sap/ui/model/Filter", "sap/ui/model/FilterOperator"], function(B, J, f, F, a) {
     "use strict";
     return B.extend("ui5demo.controller.Worklist", {
         formatter: f,

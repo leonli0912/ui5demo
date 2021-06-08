@@ -1,4 +1,4 @@
-sap.ui.predefine('ui5demo/controller/App.controller', ["./BaseController", "sap/ui/model/json/JSONModel"], function(B, J) {
+sap.ui.define('ui5demo/controller/App.controller', ["./BaseController", "sap/ui/model/json/JSONModel"], function(B, J) {
     "use strict";
     return B.extend("ui5demo.controller.App", {
         onInit: function() {
