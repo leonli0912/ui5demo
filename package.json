@@ -4,6 +4,7 @@
   "description": "a demo",
   "main": "index.html",
   "scripts": {
+    "ui5": "ui5 serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/leonli0912/ui5demo/issues"
   },
-  "homepage": "https://github.com/leonli0912/ui5demo#readme"
+  "homepage": "https://github.com/leonli0912/ui5demo#readme",
+  "dependencies": {
+    "@ui5/cli": "^2.11.1"
+  }
 }
