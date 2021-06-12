@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "ui5": "ui5 serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lserve": "light-server -s . -p 8333"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/leonli0912/ui5demo#readme",
   "dependencies": {
-    "@ui5/cli": "^2.11.1"
+    "@ui5/cli": "^2.11.1",
+    "light-server": "^2.9.1"
   }
 }
