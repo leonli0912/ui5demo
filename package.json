@@ -4,7 +4,7 @@
   "description": "a demo",
   "main": "index.html",
   "scripts": {
-    "ui5": "ui5 serve",
+    "ui5": "ui5 serve --acceptRemoteConnections true",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lserve": "light-server -s . -p 8333"
   },
