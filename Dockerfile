@@ -4,6 +4,6 @@
  COPY . .
  RUN npm install
  #CMD ["npm", "run","ui5"]
- EXPOSE 8333 1337 
+ EXPOSE 8333 1336 
  CMD [ "npm", "run","ui5"]
  #CMD [ "npm", "run","lserve"]
